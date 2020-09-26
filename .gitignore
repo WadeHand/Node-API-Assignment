@@ -38,6 +38,11 @@ bower_components
 build/Release
 
 # Dependency directories
+
+# ________________________
+# Hello user! If your are reading this file you are probably checking to see if you have indeed ingored node_modules or not.
+# Never fear, "node_modules/" means that it will ignore all directories called "node_modules" in current folders and any subfolders.
+# ________________________
 node_modules/
 jspm_packages/
 

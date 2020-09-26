@@ -19,3 +19,10 @@
 //  }
   
 //  Push your final solution to a github repository and submit the URL here. 
+
+//____________________________________________________________________________________________________________________
+//
+// STUFF I CAN NEVER REMEMBER:
+// Terminal npm start
+// Once running go to:
+// http://localhost:3000/

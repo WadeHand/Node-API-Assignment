@@ -1,0 +1,10 @@
+{
+    "weather": [
+{
+"Temperature": "90.5",
+"Unit": "fahrenheit",
+"Cloudy" : "false",
+"PrecipitationChance": "0"
+}
+    ]
+}
