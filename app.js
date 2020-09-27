@@ -24,7 +24,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
 //I added this
-//app.use('/api/v1/weather', weatherRouter);
+app.use('/api/v1/weather', weatherRouter);
 
 
 // catch 404 and forward to error handler

@@ -4,9 +4,8 @@ var router = express.Router();
 
 app.use(express.static("public"));
 
-let temp = 90.5
 
-/* GET home page. */
+// The following is for the Weather API. I put it inside of the index file as I was having issues when it was inside its own file.
 router.get('/api/v1/weather', function(req, res, next) {
  // res.send('hello world');
   //res.render('index', { title: 'Express' });
@@ -15,11 +14,5 @@ router.get('/api/v1/weather', function(req, res, next) {
 
   
 });
-
-app.get('/api/v1/weather', function(req, res) {
-  res.send('hello world');
-  });
-
-
 
 module.exports = router;
